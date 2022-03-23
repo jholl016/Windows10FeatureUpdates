@@ -85,9 +85,9 @@ Param (
             "ShowOOBE"              =   "None" #{Full | None}
             "Telemetry"             =   "Enable" #{Enable | Disable}
             "DiagnosticPrompt"      =   "Enable" #{Enable | Disable}
-            "PKey"                  =   "NPPR9-FWDCX-D2C8J-H872K-2YT43" #<product key>
-            "PostOOBE"              =   "$($FuTempDir)\Scripts\SetupComplete.cmd" #<location> [\setupcomplete.cmd]
-            "CopyLogs"              =   "$($LogPath)\$($ENV:COMPUTERNAME)" #<location> automtic log copy feature if setup fails.
+            #"PKey"                  =   "NPPR9-FWDCX-D2C8J-H872K-2YT43" #<product key>
+            #"PostOOBE"              =   "$($FuTempDir)\Scripts\SetupComplete.cmd" #<location> [\setupcomplete.cmd]
+            #"CopyLogs"              =   "$($LogPath)\$($ENV:COMPUTERNAME)" #<location> automtic log copy feature if setup fails.
             #"ReflectDrivers"        =   ""
             #"SkipFinalize"         =   "" #2004 and up
             #"Finalize"             =   "" #2004 and up
