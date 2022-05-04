@@ -211,6 +211,7 @@ Function Parse-IniFile {
         $PSCmdlet.ThrowTerminatingError($_)
     }
 }
+
 Function Process-Content {
     #comment based help is here
     [cmdletbinding()]
@@ -368,4 +369,4 @@ Function Export-IniFile {
 }
 
 #launch Main
-&$main
+& $main
